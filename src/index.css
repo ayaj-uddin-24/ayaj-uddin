@@ -25,6 +25,11 @@ body {
   font-weight: 600;
 }
 
+.btn-outline-primary:hover {
+  background: var(--primary-color);
+  border: none;
+}
+
 #services,
 #contact,
 #footer,
@@ -119,6 +124,13 @@ body {
 }
 
 /* ===================== Styling the hero section ==================== */
+#hero h1 {
+  background: var(--primary-color);
+  color: transparent;
+  background-clip: text;
+  font-weight: 1000;
+}
+
 #hero .row p {
   text-align: justify;
 }
@@ -204,7 +216,10 @@ body {
 }
 
 #contact .contact-right form h3 {
-  color: #3300ff;
+  background: var(--primary-color);
+  color: transparent;
+  background-clip: text;
+  font-weight: 10000;
 }
 
 #contact .contact-right form button {
@@ -226,7 +241,7 @@ body {
 }
 
 /* ===================== Styles for large devices ==================== */
-@media only screen and (max-width: 992px){
+@media only screen and (max-width: 992px) {
   .projects {
     grid-template-columns: auto;
   }
