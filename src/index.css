@@ -1,0 +1,258 @@
+/* ===================== Universal and common codes ==================== */
+* {
+  list-style: none;
+  text-decoration: none !important;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #171513;
+  color: #fff;
+  font-family: "Nunito", sans-serif;
+}
+
+:root {
+  --primary-color: linear-gradient(270deg, #3300ff, #b923e1);
+}
+
+.common-btn {
+  background: var(--primary-color);
+  border-radius: 20px;
+  color: #fff;
+  font-weight: 600;
+}
+
+#services,
+#contact,
+#footer,
+#projects,
+#skills {
+  width: 100%;
+}
+
+#head {
+  text-align: center;
+}
+
+#head p {
+  padding-top: 28px;
+  width: 60%;
+}
+
+#services #head h1,
+#contact #head h1,
+#footer #head h4,
+#projects #head h1,
+#skills #head h1 {
+  position: relative;
+  display: inline;
+}
+
+#services #head h1::after,
+#skills #head h1::after,
+#contact #head h1::after,
+#footer #head h4::after,
+#projects #head h1::after {
+  content: "";
+  width: 50px;
+  height: 3px;
+  background: var(--primary-color);
+  border-radius: 5px;
+  position: absolute;
+  top: 60px;
+  left: 35%;
+}
+
+#footer #head h4::after {
+  top: 40px;
+}
+
+#projects #head h1::after {
+  left: 43%;
+}
+
+#skills #head h1::after {
+  left: 30%;
+}
+/* ===================== Styling the navbar section ==================== */
+#navbar {
+  border-bottom: 0.5px solid #ddd;
+}
+#navbar ul li {
+  margin-top: -5px;
+}
+#navbar ul li a {
+  position: relative;
+  color: #fff;
+  margin: 10px 20px;
+  padding: 0 0 1px 0;
+}
+
+#navbar form button:hover {
+  background: linear-gradient(270deg, #b923e1, #3300ff);
+}
+
+#navbar ul li a::after {
+  content: "";
+  width: 0;
+  height: 2px;
+  background: var(--primary-color);
+  position: absolute;
+  top: 25px;
+  left: 0;
+  transition: 0.3s;
+}
+
+#navbar ul li a:hover::after {
+  width: 100%;
+}
+
+#navbar .container h2 .logo {
+  font-family: "Great Vibes", system-ui;
+}
+
+.active {
+  border-bottom: 2px solid #3300ff;
+}
+
+/* ===================== Styling the hero section ==================== */
+#hero .row p {
+  text-align: justify;
+}
+
+/* ===================== Styling the service section ==================== */
+#services {
+  margin-top: 100px;
+  padding-top: 20px;
+}
+
+/* ===================== Styling the skills section ==================== */
+#skills {
+  margin-top: 100px;
+  padding-top: 20px;
+}
+
+.progress-bar {
+  background: var(--primary-color);
+}
+
+/* ===================== Styling the projects section ==================== */
+#projects {
+  margin-top: 120px;
+  padding-top: 20px;
+}
+
+.sample {
+  position: relative;
+  margin: auto;
+}
+
+.project {
+  /* width: 350px; */
+  border: 1px solid #aaa;
+}
+
+.sample img {
+  width: 100%;
+  height: 350px;
+}
+
+.layer {
+  width: 100%;
+  height: 350px;
+  background: rgba(0, 0, 0, 0.7);
+  position: absolute;
+  opacity: 0;
+  transition: 0.3s;
+}
+
+.project-body {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  color: #fff;
+  opacity: 0;
+  transition: 0.3s;
+}
+
+.project:hover .layer,
+.project:hover .project-body {
+  opacity: 1;
+}
+
+.projects {
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 20px;
+}
+
+/* ===================== Styling the contact section ==================== */
+#contact {
+  margin-top: 80px !important;
+  padding-top: 20px;
+}
+
+#contact .contact-left {
+  background: var(--primary-color);
+}
+
+#contact .contact-right {
+  background: #fff;
+}
+
+#contact .contact-right form h3 {
+  color: #3300ff;
+}
+
+#contact .contact-right form button {
+  background: var(--primary-color);
+}
+
+#contact .contact-left ul li {
+  padding: 7px 0;
+}
+
+/* ===================== Styling the footer section ==================== */
+#footer #head ul {
+  margin-top: 35px;
+}
+
+#footer #head ul li a {
+  color: #fff;
+  padding: 20px;
+}
+
+/* ===================== Styles for large devices ==================== */
+@media only screen and (max-width: 992px){
+  .projects {
+    grid-template-columns: auto;
+  }
+}
+/* ===================== Styles for medium devices ==================== */
+@media only screen and (max-width: 767px) {
+  #navbar ul li a {
+    margin: 10px 0;
+    display: inline-block;
+  }
+  #navbar ul li {
+    margin-top: 0;
+  }
+  #web-design {
+    flex-direction: column-reverse;
+  }
+  #hero .row {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  #head p {
+    padding-top: 45px;
+    width: 90%;
+  }
+  #footer ul {
+    flex-direction: column;
+    gap: 20px;
+  }
+}
