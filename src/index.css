@@ -219,7 +219,6 @@ body {
   background: var(--primary-color);
   color: transparent;
   background-clip: text;
-  font-weight: 10000;
 }
 
 #contact .contact-right form button {
