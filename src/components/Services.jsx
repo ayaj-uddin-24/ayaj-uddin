@@ -8,9 +8,7 @@ const Services = () => {
       <div id="head">
         <h1 className="text-center fw-bold">Services</h1>
         <p className="small m-auto">
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptas
-          quam dignissimos neque nostrum magnam! Minus omnis similique quaerat
-          placeat enim?
+          Here is a simple description of my services that I provide.
         </p>
       </div>
       <div className="row align-items-center mt-5 pt-5">

@@ -20,7 +20,7 @@ const Hero = () => {
               />
             </span>
           </h5>
-          <p className="pe-5 lead">
+          <p className="pe-0 pe-md-5 lead">
             A passionate person who always thrives to work on end to end
             products which develop sustainable and scalable social and technical
             systems to create impact.

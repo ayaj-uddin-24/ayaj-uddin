@@ -35,7 +35,7 @@ const Footer = () => {
           <div className="col-md-7 col-lg-8">
             <p className="text-center text-md-start">
               © 2024 Copyright
-              <a href="#" className="text-warning">
+              <a href="#">
                 <strong> Ayaj Uddin</strong>
               </a>
             </p>
