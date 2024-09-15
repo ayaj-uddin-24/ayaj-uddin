@@ -43,7 +43,7 @@ body {
 }
 
 #head p {
-  padding-top: 28px;
+  padding-top: 30px;
   width: 60%;
 }
 
@@ -68,7 +68,7 @@ body {
   border-radius: 5px;
   position: absolute;
   top: 60px;
-  left: 35%;
+  left: 34%;
 }
 
 #footer #head h4::after {
@@ -84,7 +84,9 @@ body {
 }
 /* ===================== Styling the navbar section ==================== */
 #navbar {
+  background-color: #171513;
   border-bottom: 0.5px solid #ddd;
+  z-index: 10000;
 }
 #navbar ul li {
   margin-top: -5px;
@@ -137,14 +139,14 @@ body {
 
 /* ===================== Styling the service section ==================== */
 #services {
-  margin-top: 100px;
-  padding-top: 20px;
+  margin-top: 40px;
+  padding-top: 80px;
 }
 
 /* ===================== Styling the skills section ==================== */
 #skills {
-  margin-top: 100px;
-  padding-top: 20px;
+  margin-top: 20px;
+  padding-top: 80px;
 }
 
 .progress-bar {
@@ -153,8 +155,8 @@ body {
 
 /* ===================== Styling the projects section ==================== */
 #projects {
-  margin-top: 120px;
-  padding-top: 20px;
+  margin-top: 50px;
+  padding-top: 90px;
 }
 
 .sample {
@@ -203,8 +205,8 @@ body {
 
 /* ===================== Styling the contact section ==================== */
 #contact {
-  margin-top: 80px !important;
-  padding-top: 20px;
+  margin-top: 40px !important;
+  padding-top: 80px;
 }
 
 #contact .contact-left {
@@ -232,6 +234,7 @@ body {
 /* ===================== Styling the footer section ==================== */
 #footer #head ul {
   margin-top: 35px;
+  margin-left: -40px;
 }
 
 #footer #head ul li a {
@@ -263,7 +266,7 @@ body {
   }
   #head p {
     padding-top: 45px;
-    width: 90%;
+    width: 100%;
   }
   #footer ul {
     flex-direction: column;

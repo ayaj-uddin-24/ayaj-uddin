@@ -7,13 +7,14 @@ const Footer = () => {
       <div id="head">
         <h4>Ayaj's Portfolio</h4>
         <p className="small m-auto">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta,
-          architecto. Lorem ipsum dolor sit amet.
+          Thank you for visiting my portfolio! I'm Ayaj Uddin Tanif, a passionate MERN
+          stack developer ready to bring your ideas to life. Let's collaborate
+          and build something great together.
         </p>
 
         <ul className="d-flex justify-content-center small">
           <li>
-            <a href="#navbar">Home</a>
+            <a href="#">Home</a>
           </li>
           <li>
             <a href="#services">Services</a>
@@ -36,7 +37,7 @@ const Footer = () => {
             <p className="text-center text-md-start">
               © 2024 Copyright
               <a href="#">
-                <strong> Ayaj Uddin</strong>
+                <strong> Ayaj Uddin Tanif</strong>
               </a>
             </p>
           </div>

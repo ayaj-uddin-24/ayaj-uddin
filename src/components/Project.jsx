@@ -7,19 +7,22 @@ const defaultProjects = [
   {
     img: p1_img,
     title: "BD Cloths Store",
-    content: "This is cloths store using MERN Stack",
+    content:
+      " An eCommerce platform featuring a dynamic user interface and a robust product catalog, built using React and Node.js.",
     link: "https://bd-cloths-shop.onrender.com/",
   },
   {
     img: p2_img,
     title: "TechCluder Corporate Website",
-    content: "This is a simple corporate website using MERN Stack",
+    content:
+      "A tech community website offering resources, blogs, and user interaction features, built using the MERN stack.",
     link: "https://college-project-lf8l.onrender.com/",
   },
   {
     img: p3_img,
     title: "BD Food Store",
-    content: "This is BD food ordering website using React JS",
+    content:
+      "An online food delivery platform providing seamless ordering and tracking features, developed using React and MongoDB.",
     link: "https://bd-food-shop-frontend.onrender.com/",
   },
 ];
@@ -30,21 +33,26 @@ const Project = () => {
       <div id="head">
         <h1 className="text-center fw-bold">Latest Projects</h1>
         <p className="small m-auto">
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptas
-          quam dignissimos neque nostrum magnam! Minus omnis similique quaerat
-          placeat enim?
+          Here are a few of my recent web development projects, showcasing my
+          skills in building scalable, responsive, and user-friendly
+          applications.
         </p>
       </div>
 
       <div className="projects mt-5">
         {defaultProjects.map((item, index) => {
           return (
-            <a href={item.link} target="_blank" className="sample me-2 me-sm-0" key={index}>
+            <a
+              href={item.link}
+              target="_blank"
+              className="sample me-2 me-sm-0"
+              key={index}
+            >
               <div className="project">
                 <div className="layer"></div>
                 <img src={item.img} alt="" />
                 <div className="project-body">
-                  <h3>{item.title}</h3>
+                  <h3 className="fw-bold">{item.title}</h3>
                   <p>{item.content}</p>
                 </div>
               </div>
@@ -55,7 +63,7 @@ const Project = () => {
       <div className="w-100 m-auto text-center mt-5">
         <a
           href="https://github.com/ayaj-uddin-24?tab=repositories"
-          className="btn btn-outline-primary"
+          className="btn btn-primary"
           target="_blank"
         >
           See more

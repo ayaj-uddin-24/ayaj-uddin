@@ -8,7 +8,10 @@ const Services = () => {
       <div id="head">
         <h1 className="text-center fw-bold">Services</h1>
         <p className="small m-auto">
-          Here is a simple description of my services that I provide.
+          I specialize in full-stack web development using the MERN stack,
+          creating responsive and dynamic web applications. My services include
+          frontend development with React, backend solutions with Node.js, and
+          database management using MongoDB.
         </p>
       </div>
       <div className="row align-items-center mt-5 pt-5">
@@ -19,11 +22,11 @@ const Services = () => {
           <h2 className="pb-4">MERN Stack Web Development</h2>
 
           <div className="list">
-            <p>⚡ Building responsive website front end using React-Redux</p>
+            <p>⚡ Developing responsive frontend website using React JS.</p>
             <p>
-              ⚡ Developing full stack applications using React JS and Node JS
+              ⚡ Developing full stack applications using React JS and Node JS.
             </p>
-            <p>⚡ Creating website backend in Node, Express & MongoDB</p>
+            <p>⚡ Buiding website backend in Node, Express & MongoDB.</p>
           </div>
         </div>
       </div>
@@ -40,8 +43,8 @@ const Services = () => {
               typography.
             </p>
             <p>
-              ⚡ ensure that the website is easy to navigate and visually
-              appealing on different devices.
+              ⚡ Ensuring seamless navigation and visual appeal across all
+              devices.
             </p>
           </div>
         </div>

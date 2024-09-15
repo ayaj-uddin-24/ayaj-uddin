@@ -21,11 +21,13 @@ const Hero = () => {
             </span>
           </h5>
           <p className="pe-0 pe-md-5 lead">
-            A passionate person who always thrives to work on end to end
-            products which develop sustainable and scalable social and technical
-            systems to create impact.
+            A passionate developer dedicated to building end-to-end products
+            that create sustainable and scalable solutions for both social and
+            technical systems.
           </p>
-          <a href={my_cv} className="btn common-btn" download>Download CV</a>
+          <a href={my_cv} className="btn common-btn" download>
+            Download CV
+          </a>
         </div>
         <div className="col-12 col-md-6">
           <img src={hero_img} className="img-fluid" alt="hero image" />

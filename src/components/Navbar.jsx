@@ -4,7 +4,7 @@ const Navbar = () => {
   const [state, setState] = useState("");
 
   return (
-    <nav className="navbar navbar-expand-md navbar-dark py-2" id="navbar">
+    <nav className="navbar navbar-expand-md navbar-dark py-2 position-sticky top-0" id="navbar">
       <div className="container">
         <h2>
           <span>&lt; </span>

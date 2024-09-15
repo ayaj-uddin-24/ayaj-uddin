@@ -37,9 +37,8 @@ const Skills = () => {
       <div id="head">
         <h1 className="text-center fw-bold">Skills</h1>
         <p className="small m-auto">
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptas
-          quam dignissimos neque nostrum magnam! Minus omnis similique quaerat
-          placeat enim?
+          Here are some of the key technologies and tools I use in my web
+          development projects, with proficiency levels based on my experience.
         </p>
       </div>
 

@@ -22,22 +22,23 @@ const Contact = () => {
       );
   };
   return (
-    <div className="container m-auto" id="contact">
+    <div className="container" id="contact">
       <div id="head">
         <h1 className="text-center fw-bold">Contact</h1>
         <p className="small m-auto">
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptas
-          quam dignissimos neque nostrum magnam! Minus omnis similique quaerat
-          placeat enim?
+          Interested in working together? Whether you have a project in mind,
+          need help with an existing application, or just want to discuss your
+          web development needs, feel free to reach out. I’d love to hear from
+          you!
         </p>
       </div>
       <div className="row mt-5 pt-3">
         <div className="col-12 col-md-6 contact-left p-5">
           <h1 className=" display-3 fw-bold">100% Satisfaction Guaranteed</h1>
           <p className="py-2">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam
-            alias optio minima, tempore architecto sint ipsam dolore tempora
-            facere laboriosam corrupti
+            Your satisfaction is my priority. I’m committed to delivering
+            high-quality web solutions tailored to your needs. Let's work
+            together to bring your vision to life.
           </p>
           <h3>What will be the next step?</h3>
           <ul>
@@ -72,7 +73,7 @@ const Contact = () => {
               cols="30"
               rows="10"
               className="form-control"
-              placeholder="Write message..."
+              placeholder="Tell me about your project ..."
               required
             ></textarea>
             <button
