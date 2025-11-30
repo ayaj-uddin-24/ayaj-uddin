@@ -1,4 +1,3 @@
-import React from "react";
 import fullStack_img from "../assets/fullstack.svg";
 import dataSciencs_img from "../assets/data_science.svg";
 

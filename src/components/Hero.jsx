@@ -1,4 +1,3 @@
-import React from "react";
 import hero_img from "../assets/feelingProud.svg";
 import { Typewriter } from "react-simple-typewriter";
 import my_cv from "../assets/my_cv.pdf";

@@ -82,15 +82,18 @@ body {
 #skills #head h1::after {
   left: 30%;
 }
+
 /* ===================== Styling the navbar section ==================== */
 #navbar {
   background-color: #171513;
   border-bottom: 0.5px solid #ddd;
   z-index: 10000;
 }
+
 #navbar ul li {
   margin-top: -5px;
 }
+
 #navbar ul li a {
   position: relative;
   color: #fff;
@@ -248,26 +251,32 @@ body {
     grid-template-columns: auto;
   }
 }
+
 /* ===================== Styles for medium devices ==================== */
 @media only screen and (max-width: 767px) {
   #navbar ul li a {
     margin: 10px 0;
     display: inline-block;
   }
+
   #navbar ul li {
     margin-top: 0;
   }
+
   #web-design {
     flex-direction: column-reverse;
   }
+
   #hero .row {
     display: flex;
     flex-direction: column-reverse;
   }
+
   #head p {
     padding-top: 45px;
     width: 100%;
   }
+
   #footer ul {
     flex-direction: column;
     gap: 20px;

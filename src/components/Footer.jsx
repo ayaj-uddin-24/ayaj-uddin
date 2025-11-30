@@ -1,4 +1,3 @@
-import React from "react";
 import { FaFacebook, FaGithub, FaInstagram, FaLinkedin } from "react-icons/fa";
 
 const Footer = () => {
@@ -7,9 +6,9 @@ const Footer = () => {
       <div id="head">
         <h4>Ayaj's Portfolio</h4>
         <p className="small m-auto">
-          Thank you for visiting my portfolio! I'm Ayaj Uddin Tanif, a passionate MERN
-          stack developer ready to bring your ideas to life. Let's collaborate
-          and build something great together.
+          Thank you for visiting my portfolio! I'm Ayaj Uddin Tanif, a
+          passionate MERN stack developer ready to bring your ideas to life.
+          Let's collaborate and build something great together.
         </p>
 
         <ul className="d-flex justify-content-center small">
@@ -35,7 +34,7 @@ const Footer = () => {
         <div className="row align-items-center">
           <div className="col-md-7 col-lg-8">
             <p className="text-center text-md-start">
-              © 2024 Copyright
+              © {new Date().getFullYear()} Copyright
               <a href="#">
                 <strong> Ayaj Uddin Tanif</strong>
               </a>
